@@ -1,2 +1,1 @@
-# Site-RSNoticias
-Site de Notícias &lt; modelo iniciante
+# Exemplo de CRUD com Node.js
