@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <link rel="stylesheet" href="/CSS/Cadastro.css"> <link rel="stylesheet" href="js.js">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="icon" href="/IMG/Logo_aba.png" type="image/png">
+    
+    <title></title>
+</head>
+
+    
+    <div class="container" >
+        
+        <div class="content">      
+        <!--FORMULÁRIO DE CADASTRO-->
+    
+        
+        <div id=""> 
+            <form id="cadastro" method="post"> 
+            <h1>Cadastro</h1> 
+            
+            <input type="hidden" id="id" value="">
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="senha">Senha</label>
+                <input type="text" name="senha" id="senha">
+            </div>
+            <div>
+                <div>
+                    <br>
+                    <input type="submit" id="enviar" value="Adicionar"> 
+                
+                
+            </form>
+            <p class="link">  
+                Já tem conta?
+                <a href="login"> Ir para Login </a>
+                <a href="index">Voltar</a>
+                <a href="equipe">Equipe</a>
+            </p>
+            
+            
+            </form>
+            <script class="alert-box">
+                function enviar() {
+                    alert("Cadastro Realizado com Sucesso!");
+                }
+            
+                </script>
+
+    <script src="/js/scripts.js"></script>
+</body>
+</html>

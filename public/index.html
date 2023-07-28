@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <link rel="stylesheet" href="/CSS/index.css"> <link rel="stylesheet" href="js.js">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="icon" href="/IMG/Logo_aba.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</head>
+
+    <title>RSNotícias</title>
+    
+</head>
+</head>
+
+<header>
+    <nav class="nav-bar">
+        <div class="logo" ><a href="index"><img src="/IMG/Logo 3.0.gif" alt="Computer man" style="width:110px;height:110px;"></a>
+            <h1 id="h11">RSNotícias</h1>
+        </div>
+        <div class="nav-list">
+            <ul>
+                <li class="nav-item"><a href="contato" class="nav-link">Contato</a></li><li class="nav-item"><a href="index" class="nav-link">Início</a></li>
+            
+                <li class="nav-item"><a href="sobre" class="nav-link"> Sobre</a></li>
+            </ul>
+        </div>
+        <div class="login-button">
+            <button><a href="entrar">Entrar</a></button>
+        </div>
+    
+
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+        </div>
+    </nav>
+    <div class="mobile-menu">
+        <ul>
+            <li class="nav-item"><a href="index" class="nav-link">Início</a></li>
+            <li class="nav-item"><a href="contato" class="nav-link">Contato</a></li>
+            <li class="nav-item"><a href="sobre" class="nav-link">Sobre</a></li>
+        </ul>
+
+        <div class="login-button">
+            <button><a href="entrar">Entrar</a></button>
+        </div>
+    </div>
+</header>
+
+
+
+
+<body>
+    
+        <div class="noticias_conteiner">
+            <div class="slide">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active"><a href="noticia9" >
+                    <img src="/img/technosaude2.jpeg" class="d-block w-100" id="imagens" alt="...">
+                    <div class="carousel-caption d-none d-md-block"></a>
+                    <div class="back"><h5 style="color: rgb(255, 255, 255);">Produtos</h5>
+                    <p style="color: rgb(255, 255, 255);  ">TechnoSaúde</p></div>
+                    </div>
+                </div>
+                <div class="carousel-item"><a href="noticia8">
+                    <img  src="/img/hemocentroimg.png" class="d-block w-100" id="imagens" alt="...">
+                    <div class="carousel-caption d-none d-md-block"></a>
+                        <div class="back"><h5 style="color: rgb(255, 255, 255);">hemocentros</h5>
+                            <p style="color: rgb(255, 255, 255);  ">Estudantes do Proem+TECH lançam site beneficente inovador para transformar vidas
+                            </p></div>
+                    </div>
+                </div>
+                <div class="carousel-item"><a href="noticia7">
+                    <img src="/img/pelotas.webp" class="d-block w-100" id="imagens" alt="...">
+                    <div class="carousel-caption d-none d-md-block"></a>
+                        <div class="back"><h5 style="color: rgb(255, 255, 255);">Clima</h5>
+                            <p style="color: rgb(255, 255, 255)">Ciclone no Rio Grande do Sul</p></div>
+                    </div>
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button></div>
+            </div>
+            <div class="accordion">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        TechnoSaúde, a nova marca de produtos para sua vida saudável
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">A Tecnosaúde é uma empresa fundada por quatro profissionais altamente especializados nas áreas de tecnologia e saúde. Com uma visão em comum de melhorar a segurança das pessoas, especialmente em ambientes de trabalho isolados, a empresa surgiu com o objetivo de desenvolver soluções inovadoras e tecnológicas para promover o bem-estar e a saúde dos indivíduos. Nosso compromisso é fornecer produtos que combinem o conhecimento avançado da tecnologia com as necessidades do setor de saúde. Acreditamos que é possível utilizar a tecnologia para melhorar a segurança e a qualidade de vida das pessoas,
+                            e é isso que nos motiva a criar soluções inovadoras e eficientes. <br>
+                            <p> Para Saber Mais <a href="noticia9">Clique Aqui</a></p>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Outro Ciclone é previsto no RS
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body"><p>Frio e chuva voltam ao RS, e novo ciclone deve chegar na quarta-feira</p>
+                            <p>Ventos devem ser menos intensos, com rajadas entre 40 a 60 km/h. <br>
+                                <p> Para Saber Mais <a href="noticia7">Clique Aqui</a></p>
+                            </p></div>
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Estudantes do Proem+TECH lançam site beneficente inovador para transformar vidas
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Em Pelotas-RS, um grupo notável de alunos do programa Proem+TECH do SENAC está fazendo a diferença ao lançar um site beneficente para doadores de sangue.<br>
+                            <p> Para Saber Mais <a href="noticia8">Clique Aqui</a></p></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+                
+        </div>
+<section class="" >
+    <div class="principal-container">
+    <div class="sub1"><a href="noticia">
+        <img src="/IMG/heroico.jfif" alt="imagem 1" class="img3"></a>
+    
+            <div class="margem">
+                <h4>Campanhas</h4>
+                <h2 id="texto"><a href="noticia">Campanha Heroica</a></h2><br>
+                <div class="noticiass">
+            </div>
+            <h4 class="resumo">Edmar Fetter VS CIEP, derrota não apaga a campanha</h4></div>
+        </div>
+    </div>
+
+
+    <hr id="linha"> 
+    <div class="principal-container">
+    <div class="sub1">
+        
+        <a href="noticia2"><img src="/IMG/EduardoLeite.jpg" alt="imagem 1" class="img3">
+        </a>
+            <div class="margem">
+                <h4>Política</h4>
+                <h2  id="texto"><a href="noticia2">Eduardo Leite participa de lançamento das obras nos aeroportos de Pelotas, Bagé e Uruguaiana</a></h2><br>
+                <div class="noticiass">
+            </div>
+            <h4 class="resumo"></h4></div>
+        </div>
+    </div>
+
+
+    <hr id="linha"> 
+    <div class="principal-container">
+    <div class="sub1">
+        <a href="noticia3"><img src="/IMG/banrisul.jpg" alt="imagem 1" class="img3">
+        </a>
+            <div class="margem">
+                <h4>Econômia</h4>
+                <h2 id="texto"><a href="noticia3">Banrisul anuncia maior Plano Safra de sua história com R$ 11 bilhões em crédito
+                    Crescimento é de 57% em relação à oferta de crédito da safra anterior</a></h2><br>
+                <div class="noticiass">
+            </div>
+            <h4 class="resumo"></h4></div>
+        </div>
+    </div>
+
+
+    <hr id="linha"> 
+<div class="principal-container">
+    <div class="sub1">
+        <a href="noticia4"><img src="/IMG/atendimento.webp" alt="imagem 1" class="img3">
+        </a>
+            <div class="margem">
+                <h4>Saúde</h4>
+                <h2 id="texto"><a href="noticia4">RS decreta emergência por aumento de casos de doenças respiratórias em crianças
+                    Decreto tem duração de três meses, com possibilidade de prorrogação. De acordo com o texto,
+                    houve "aumento expressivo nos índices de internações" em UTI, 
+                    o que gera aumento de filas e "elevado risco sanitário".</a></h2><br>
+                <div class="noticiass">
+            </div>
+            <h4 class="resumo"></h4></div>
+        </div>
+    </div>
+
+
+    <hr id="linha"> 
+    <div class="principal-container">
+    <div class="sub1">
+    
+    <a href="noticia5"><img src="/IMG/oktober.jpg" alt="imagem 1" class="img3">
+        </a> 
+            <div class="margem">
+                <h4>Shows</h4>
+                <h2 id="texto"><a href="noticia5">Começa venda de ingressos para os shows da 38º Oktoberfest;
+                    Ana Castela e Maiara & Maraisa estão entre as atrações</a></h2><br>
+                <div class="noticiass">
+            </div>
+            <h4 class="resumo"></h4></div>
+        </div>
+    </div>
+
+    
+    <hr id="linha"> 
+    <div class="principal-container">
+    <div class="sub1">
+        <a href="noticia6"><img src="/IMG/UFPEL.png" alt="imagem 1" class="img3">
+        </a>
+            <div class="margem">
+                <h4>Categoria</h4>
+                <h2 id="texto"><a href="noticia6">Informações Sobre o PAVE O Programa de Avaliação da Vida Escolar</a></h2><br>
+                <div class="noticiass">
+            </div>
+            <h4 class="resumo"></h4></div>
+        </div>
+    </div>
+    <hr id="linha">
+    <br><br>
+    <br><br>
+    <br><br>
+    
+    
+    </div>
+</section>
+    
+    <footer>
+        <p id="footer">©Copyright RSNotícias</p>
+    </footer>
+</body>
+
+
+</html>
